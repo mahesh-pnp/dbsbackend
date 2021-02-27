@@ -12,6 +12,7 @@
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
     </head>
     <body>
+<center>
         <nav class="navbar navbar-dark bg-dark">
             <span class="navbar-brand" href="#">Home</span>
             <span class="navbar-brand" href="#">Risk Lists</span>
@@ -19,12 +20,16 @@
         <center><h1>Customer Rating System</h1></center>
         <h3>Rules to categorize risks</h3>
 <form action="index3.jsp" method="get" >
-        <input type="submit" class="btn btn-dark"  value="add"  name="add">
+        <input type="submit" class="btn btn-dark"  value="Add Rule"  name="add">
 </form>
 
-
-        <button type="button" class="btn btn-dark" name="add" value="insert" action="index2.jsp">Delete rule</button>
-        <button type="button" class="btn btn-dark" name="add" value="modify" action="index2.jsp">Modify rule</button>
+<form action="index4.jsp" method="get" >
+        <input type="submit" class="btn btn-dark"  value="Delete Rule"  name="add">
+</form>
+<form action="index5.jsp" method="get" >
+        <input type="submit" class="btn btn-dark"  value="Modify Rule"  name="add">
+</form>
+</center>
     </body>
 </html>
 
